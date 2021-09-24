@@ -1,3 +1,13 @@
+########################################################################
+##
+## CS 101 Lab
+## Program #: Grade calculator
+## Name: Aissatou Diallo
+## Email: ad5fh@umsystem.edu
+##
+## PROBLEM : The code below help us calculate the grade of a person after his/her name, his/her different grades(lab,exams, attendance)are given. It also output the letter grade of the person and it provide a warning when the grade is a negative number or it's greater than 100. 
+##
+## ALGORITHM : 
 print("**** Welcome to the LAB grade calculator! ****")
 print()
 name=input("Who are we calculating grades for? ==> ")
