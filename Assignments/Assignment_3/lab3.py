@@ -1,3 +1,13 @@
+########################################################################
+##
+## CS 101 Lab
+## Program: Functions
+## Name:Aissatou Diallo
+## Email:Ad5fh@umsystem.edu
+##
+## PROBLEM : The program below is showing a game where we have to choose the number of chips and spin randomly between 1 to 10. And see if we win or lose.
+##
+## ALGORITHM : see below
 import random
 global spin
 spin=0
