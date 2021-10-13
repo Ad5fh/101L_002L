@@ -48,7 +48,8 @@ def get_check_digit (library_card):
     for i in range(len(library_card)):
         value = character_value(library_card[i])
         sum += value * (i+1)
-    return sum %10
+    return sum % 10
+
 
 def verify_check_digit (library_card):
     if len(library_card) != 10:
