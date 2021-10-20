@@ -35,13 +35,14 @@ def decrypt(text,shift):
            decode +=" "
            continue
         if (character.isupper()):
-          decode += chr((ord(character) - shift-65) % 26 + 65)
+          decode += chr((ord(character) - shift - 65) % 26 + 65)
  
         # Encrypt lowercase characters
         else:
           decode += chr((ord(character) - shift - 97) % 26 + 97)
  
       return decode.upper()
+
 while(1):
  print()
  print('MAIN MENU')
